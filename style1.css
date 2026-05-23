@@ -1,0 +1,79 @@
+/* Asyla_202432069 */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7f6;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* NAVBAR */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 13px;
+}
+
+nav a:hover {
+    background: #3498db;
+}
+
+nav a.active {
+    background: #3498db;
+}
+
+/* MAIN */
+main {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+main h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
